@@ -3,7 +3,7 @@ using Xunit;
 
 namespace ApiSoftPlan.Tests
 {
-	public class UnitTest1
+	public class CalculaJurosTests
 	{
 		[Fact]
 		public void Test1()

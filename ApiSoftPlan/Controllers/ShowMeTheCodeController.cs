@@ -9,14 +9,13 @@
 	public class ShowMeTheCodeController : Controller
 	{
 		/// <summary>The show me the code get.</summary>
-		/// <param name="mathSoft">The math soft.</param>
 		/// <returns>The <see cref="IActionResult"/>.</returns>
 		[HttpGet(Name = nameof(ShowMeTheCodeGet))]
 		[Produces("application/json")]
-		public IActionResult ShowMeTheCodeGet([FromBody]MathSoft mathSoft)
+		public string ShowMeTheCodeGet()
 		{
 
-			return BadRequest();
+			return "https://github.com/BrunoMR/SofPlan";
 		}
 	}
 }

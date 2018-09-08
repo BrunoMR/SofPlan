@@ -1,11 +1,10 @@
 ﻿namespace ApiSoftPlan.Core
 {
-	using System;
 	using ApiSoftPlan.Models;
 	using Extensions;
-
 	using Microsoft.Extensions.Options;
 
+	/// <summary>The math core.</summary>
 	public class MathCore : IMathCore
 	{
 		/// <summary>

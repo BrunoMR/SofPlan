@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiSoftPlan</name>
+    </assembly>
+    <members>
+        <member name="T:ApiSoftPlan.Controllers.CalculaJurosController">
+            <summary>The calcula juros controller.</summary>
+        </member>
+        <member name="F:ApiSoftPlan.Controllers.CalculaJurosController.MathCore">
+            <summary>Gets the math core.</summary>
+        </member>
+        <member name="M:ApiSoftPlan.Controllers.CalculaJurosController.#ctor(ApiSoftPlan.Core.IMathCore)">
+            <summary>Initializes a new instance of the <see cref="T:ApiSoftPlan.Controllers.CalculaJurosController"/> class.</summary>
+            <param name="mathCore">The math core.</param>
+        </member>
+        <member name="T:ApiSoftPlan.Controllers.ShowMeTheCodeController">
+            <summary>The calcula juros controller.</summary>
+        </member>
+        <member name="M:ApiSoftPlan.Controllers.ShowMeTheCodeController.ShowMeTheCodeGet">
+            <summary>The show me the code get.</summary>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/>.</returns>
+        </member>
+        <member name="M:ApiSoftPlan.Core.IMathCore.CalculateInterest(ApiSoftPlan.Models.MathSoft)">
+            <summary>The calculate interest.</summary>
+            <param name="mathSoft">The math soft.</param>
+            <returns>The <see cref="T:System.Decimal"/>.</returns>
+        </member>
+        <member name="T:ApiSoftPlan.Core.MathCore">
+            <summary>The math core.</summary>
+        </member>
+        <member name="F:ApiSoftPlan.Core.MathCore.settings">
+            <summary>
+            The settings.
+            </summary>
+        </member>
+        <member name="M:ApiSoftPlan.Core.MathCore.#ctor(Microsoft.Extensions.Options.IOptionsSnapshot{ApiSoftPlan.Models.Settings})">
+            <summary>Initializes a new instance of the <see cref="T:ApiSoftPlan.Core.MathCore"/> class.</summary>
+            <param name="optionsSnapshot">The options snapshot.</param>
+        </member>
+        <member name="M:ApiSoftPlan.Core.MathCore.CalculateInterest(ApiSoftPlan.Models.MathSoft)">
+            <summary>The calculate interest.</summary>
+            <param name="mathSoft">The math soft.</param>
+            <returns>The <see cref="T:System.Decimal"/>.</returns>
+        </member>
+        <member name="M:ApiSoftPlan.Extensions.DecimalExtensions.TruncateWithCases(System.Decimal,System.Int32)">
+            <summary>The truncate.</summary>
+            <param name="_this">The _this.</param>
+            <param name="precision">The precision.</param>
+            <returns>The decimal truncated with the decimal cases requested.</returns>
+        </member>
+        <member name="T:ApiSoftPlan.Models.MathSoft">
+            <summary>The math soft.</summary>
+        </member>
+        <member name="P:ApiSoftPlan.Models.MathSoft.InitialValue">
+            <summary>
+            Gets or sets the initial value.
+            </summary>
+        </member>
+        <member name="P:ApiSoftPlan.Models.MathSoft.Month">
+            <summary>
+            Gets or sets the month.
+            </summary>
+        </member>
+        <member name="P:ApiSoftPlan.Models.MathSoft.TotalValue">
+            <summary>
+            Gets or sets the total value.
+            </summary>
+        </member>
+        <member name="T:ApiSoftPlan.Models.Settings">
+            <summary>The settings.</summary>
+        </member>
+        <member name="P:ApiSoftPlan.Models.Settings.Interest">
+            <summary>Gets or sets the interest.</summary>
+        </member>
+        <member name="P:ApiSoftPlan.Models.Settings.InterestCalculated">
+            <summary>The interest calculated.</summary>
+        </member>
+        <member name="P:ApiSoftPlan.Models.Settings.DecimalCases">
+            <summary>Gets or sets the decimal cases.</summary>
+        </member>
+    </members>
+</doc>
