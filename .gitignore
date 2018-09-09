@@ -1,3 +1,5 @@
 .vs/
 ApiSoftPlan.Tests/obj/
 ApiSoftPlan/obj/
+ApiSoftPlan.Tests/bin/
+ApiSoftPlan/bin/
